@@ -25,6 +25,13 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# http request
+gem 'rest-client'
+# use as crawler
+gem 'nokogiri'
+# for schedule cron job
+gem 'whenever'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
