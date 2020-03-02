@@ -1,3 +1,23 @@
-// Place all the styles related to the events controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: black;
+
+  .events-secion {
+    .exception-section {
+      width: auto;
+      height: 100vh;
+      padding: 200px;
+      color: white;
+    }
+    .card-deck {
+      margin-bottom: 20px;
+
+      .card-img-block {
+        max-height: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<div id="events" class="events-secion">
+  <!-- filter bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" @click="filterChanged('all')">Event Collector</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li
+          class="nav-item"
+          @click="currentExtractFilter !== 'gorki' && filterChanged('gorki')"
+          v-bind:class="{ active: currentExtractFilter === 'gorki' }"
+        >
+          <a class="nav-link">Filter by Gorki</a>
+        </li>
+        <li
+          class="nav-item"
+          @click="currentExtractFilter !== 'berghain' && filterChanged('berghain')"
+          v-bind:class="{ active: currentExtractFilter === 'berghain' }"
+        >
+          <a class="nav-link">Filter by Berghain</a>
+        </li>
+        <li class="nav-item">
+          <input class="datepicker" data-date-format="dd.mm.yyyy" placeholder="Filter By Date">
+        </li>
+      </ul>
+      <div class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" placeholder="Search" v-model="query">
+        <button class="btn btn-outline-success my-2 my-sm-0" @click="queryFilter()">Search</button>
+      </div>
+    </div>
+  </nav>
+  <!-- event content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div v-if="dateList.length === 0" class="exception-section">
+          <h3 class="text-center">No Result.</h3>
+        </div>
+        <div v-for="date in dateList" class="card-deck">
+          <div v-for="event in events[date]" class="card text-white bg-secondary mb-3 text-center">
+            <div class="card-header">{{date}}</div>
+            <img :src="event.img_url" :alt="event.extract_from" class="card-img-top card-img-block">
+            <div class="card-body">
+              <h5 class="card-title">{{event.title}}</h5>
+              <a :href="event.link" class="btn btn-primary" target="_blank">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
