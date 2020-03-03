@@ -52,33 +52,33 @@ None
 
 ```json
 {
-  "events" => {
-    "03.03.2020" => [
+  "events": {
+    "03.03.2020": [
       {
-        "id" => 1167,
-        "held_at" => "2020-03-03T00:00:00.000Z",
-        "title" => "Fasten your seatbelts. It's going to be a bumpy night.",
-        "img_url" => "http://mcculloughborer.com/laurie",
-        "link" => "http://parkerkertzmann.co/reggie.gibson",
-        "extract_from" => "gorki",
-        "created_at" => "2020-03-03T14:57:17.278Z",
-        "updated_at" => "2020-03-03T14:57:17.278Z"
+        "id": 1167,
+        "held_at": "2020-03-03T00:00:00.000Z",
+        "title": "Fasten your seatbelts. It's going to be a bumpy night.",
+        "img_url": "http://mcculloughborer.com/laurie",
+        "link": "http://parkerkertzmann.co/reggie.gibson",
+        "extract_from": "gorki",
+        "created_at": "2020-03-03T14:57:17.278Z",
+        "updated_at": "2020-03-03T14:57:17.278Z"
       }
     ],
-   "04.03.2020" => [
+   "04.03.2020": [
       {
-        "id" => 1169,
-        "held_at" => "2020-03-04T00:00:00.000Z",
-        "title" => "You talking to me?",
-        "img_url" => "http://feeney.com/vito",
-        "link" => "http://satterfield.org/brooks.rolfson",
-        "extract_from" => "berghain",
-        "created_at" => "2020-03-03T14:57:17.283Z",
-        "updated_at" => "2020-03-03T14:57:17.283Z"
+        "id": 1169,
+        "held_at": "2020-03-04T00:00:00.000Z",
+        "title": "You talking to me?",
+        "img_url": "http://feeney.com/vito",
+        "link": "http://satterfield.org/brooks.rolfson",
+        "extract_from": "berghain",
+        "created_at": "2020-03-03T14:57:17.283Z",
+        "updated_at": "2020-03-03T14:57:17.283Z"
       }
     ]
   },
-  "date_list" => ["03.03.2020", "04.03.2020"]
+  "date_list": ["03.03.2020", "04.03.2020"]
 }
 ```
 
@@ -96,7 +96,7 @@ None
 
 ```json
 {
-  date_filter: "03.03.2020"
+  "date_filter": "03.03.2020"
 }
 ```
 
@@ -106,21 +106,21 @@ None
 
 ```json
 {
-  "events" => {
-    "03.03.2020" => [
+  "events": {
+    "03.03.2020": [
       {
-        "id" => 1167,
-        "held_at" => "2020-03-03T00:00:00.000Z",
-        "title" => "Fasten your seatbelts. It's going to be a bumpy night.",
-        "img_url" => "http://mcculloughborer.com/laurie",
-        "link" => "http://parkerkertzmann.co/reggie.gibson",
-        "extract_from" => "gorki",
-        "created_at" => "2020-03-03T14:57:17.278Z",
-        "updated_at" => "2020-03-03T14:57:17.278Z"
+        "id": 1167,
+        "held_at": "2020-03-03T00:00:00.000Z",
+        "title": "Fasten your seatbelts. It's going to be a bumpy night.",
+        "img_url": "http://mcculloughborer.com/laurie",
+        "link": "http://parkerkertzmann.co/reggie.gibson",
+        "extract_from": "gorki",
+        "created_at": "2020-03-03T14:57:17.278Z",
+        "updated_at": "2020-03-03T14:57:17.278Z"
       }
     ]
   },
-  "date_list" => ["03.03.2020"]
+  "date_list": ["03.03.2020"]
 }
 ```
 
@@ -137,7 +137,7 @@ None
 
 ```json
 {
-  extract_filter: "gorki"
+  "extract_filter": "gorki"
 }
 ```
 
@@ -147,33 +147,33 @@ None
 
 ```json
 {
-  "events" => {
-    "03.03.2020" => [
+  "events": {
+    "03.03.2020": [
       {
-        "id" => 1167,
-        "held_at" => "2020-03-03T00:00:00.000Z",
-        "title" => "Fasten your seatbelts. It's going to be a bumpy night.",
-        "img_url" => "http://mcculloughborer.com/laurie",
-        "link" => "http://parkerkertzmann.co/reggie.gibson",
-        "extract_from" => "gorki",
-        "created_at" => "2020-03-03T14:57:17.278Z",
-        "updated_at" => "2020-03-03T14:57:17.278Z"
+        "id": 1167,
+        "held_at": "2020-03-03T00:00:00.000Z",
+        "title": "Fasten your seatbelts. It's going to be a bumpy night.",
+        "img_url": "http://mcculloughborer.com/laurie",
+        "link": "http://parkerkertzmann.co/reggie.gibson",
+        "extract_from": "gorki",
+        "created_at": "2020-03-03T14:57:17.278Z",
+        "updated_at": "2020-03-03T14:57:17.278Z"
       }
     ],
-   "04.03.2020" => [
+   "04.03.2020": [
       {
-        "id" => 1169,
-        "held_at" => "2020-03-04T00:00:00.000Z",
-        "title" => "You talking to me?",
-        "img_url" => "http://feeney.com/vito",
-        "link" => "http://satterfield.org/brooks.rolfson",
-        "extract_from" => "gorki",
-        "created_at" => "2020-03-03T14:57:17.283Z",
-        "updated_at" => "2020-03-03T14:57:17.283Z"
+        "id": 1169,
+        "held_at": "2020-03-04T00:00:00.000Z",
+        "title": "You talking to me?",
+        "img_url": "http://feeney.com/vito",
+        "link": "http://satterfield.org/brooks.rolfson",
+        "extract_from": "gorki",
+        "created_at": "2020-03-03T14:57:17.283Z",
+        "updated_at": "2020-03-03T14:57:17.283Z"
       }
     ]
   },
-  "date_list" => ["03.03.2020", "04.03.2020"]
+  "date_list": ["03.03.2020", "04.03.2020"]
 }
 ```
 
@@ -190,7 +190,7 @@ None
 
 ```json
 {
-  query: "talking"
+  "query": "talking"
 }
 ```
 
@@ -200,20 +200,20 @@ None
 
 ```json
 {
-  "events" => {
-   "04.03.2020" => [
+  "events": {
+   "04.03.2020": [
       {
-        "id" => 1169,
-        "held_at" => "2020-03-04T00:00:00.000Z",
-        "title" => "You talking to me?",
-        "img_url" => "http://feeney.com/vito",
-        "link" => "http://satterfield.org/brooks.rolfson",
-        "extract_from" => "gorki",
-        "created_at" => "2020-03-03T14:57:17.283Z",
-        "updated_at" => "2020-03-03T14:57:17.283Z"
+        "id": 1169,
+        "held_at": "2020-03-04T00:00:00.000Z",
+        "title": "You talking to me?",
+        "img_url": "http://feeney.com/vito",
+        "link": "http://satterfield.org/brooks.rolfson",
+        "extract_from": "gorki",
+        "created_at": "2020-03-03T14:57:17.283Z",
+        "updated_at": "2020-03-03T14:57:17.283Z"
       }
     ]
   },
-  "date_list" => ["04.03.2020"]
+  "date_list": ["04.03.2020"]
 }
 ```
