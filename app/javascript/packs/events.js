@@ -25,7 +25,11 @@ export default document.addEventListener('turbolinks:load', () => {
           this.events = response.data.events;
           this.dateList = response.data.date_list;
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+          console.log(error);
+          this.events = {}
+          this.dateList = []
+        });
     },
     mounted() {
       $('.datepicker').datepicker().on('changeDate', (e) => {
@@ -57,7 +61,11 @@ export default document.addEventListener('turbolinks:load', () => {
             this.events = response.data.events;
             this.dateList = response.data.date_list;
           })
-          .catch(error => console.log(error));
+          .catch(error => {
+            console.log(error);
+            this.events = {}
+            this.dateList = []
+          });
       },
       queryFilter() {
         if (this.query !== '') this.filterEvents();        
